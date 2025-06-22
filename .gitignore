@@ -1,0 +1,14 @@
+build/
+bin/
+*.o
+*.obj
+*.exe
+.vscode/
+*.code-workspace
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.log
+*.swp
+.DS_Store

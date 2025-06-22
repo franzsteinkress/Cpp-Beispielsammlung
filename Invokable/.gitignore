@@ -1,0 +1,24 @@
+# This file is used to ignore files which are generated
+# ----------------------------------------------------------------------------
+
+# Build directories and files
+build/
+bin/
+*.o
+*.obj
+*.exe
+
+# IDE files
+.vscode/
+*.code-workspace
+
+# CMake generated files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Miscellaneous
+*.log
+*.swp
+.DS_Store
