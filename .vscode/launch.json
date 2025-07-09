@@ -1,0 +1,293 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Debug Binding",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Binding/build/Binding",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Binding",
+            "preLaunchTask": "Build Binding",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Run Binding",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Binding/build/Binding",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Binding",
+            "preLaunchTask": "Build Binding",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": []
+        },
+        {
+            "name": "Debug Invokable",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Invokable/build/Invokable",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Invokable",
+            "preLaunchTask": "Build Invokable",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Run Invokable",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Invokable/build/Invokable",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Invokable",
+            "preLaunchTask": "Build Invokable",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": []
+        },
+        {
+            "name": "Debug Lambda",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Lambda/build/Lambda",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Lambda",
+            "preLaunchTask": "Build Lambda",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Run Lambda",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Lambda/build/Lambda",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Lambda",
+            "preLaunchTask": "Build Lambda",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": []
+        },
+        {
+            "name": "Debug LambdaThread",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/LambdaThread/build/LambdaThread",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/LambdaThread",
+            "preLaunchTask": "Build LambdaThread",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Run LambdaThread",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/LambdaThread/build/LambdaThread",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/LambdaThread",
+            "preLaunchTask": "Build LambdaThread",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": []
+        },
+        {
+            "name": "Debug Multithreading",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Multithreading/build/Multithreading",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Multithreading",
+            "preLaunchTask": "Build Multithreading",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Run Multithreading",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/Multithreading/build/Multithreading",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/Multithreading",
+            "preLaunchTask": "Build Multithreading",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": []
+        },
+        {
+            "name": "Debug SharedPtr",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/SharedPtr/build/SharedPtr",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/SharedPtr",
+            "preLaunchTask": "Build SharedPtr",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Run SharedPtr",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/SharedPtr/build/SharedPtr",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/SharedPtr",
+            "preLaunchTask": "Build SharedPtr",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": []
+        },
+        {
+            "name": "Debug ThreadDeadLock",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/ThreadDeadLock/build/ThreadDeadLock",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/ThreadDeadLock",
+            "preLaunchTask": "Build ThreadDeadLock",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Run ThreadDeadLock",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/ThreadDeadLock/build/ThreadDeadLock",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/ThreadDeadLock",
+            "preLaunchTask": "Build ThreadDeadLock",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": []
+        },
+        {
+            "name": "Debug ThreadRaceCondition",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/ThreadRaceCondition/build/ThreadRaceCondition",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/ThreadRaceCondition",
+            "preLaunchTask": "Build ThreadRaceCondition",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "Run ThreadRaceCondition",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/ThreadRaceCondition/build/ThreadRaceCondition",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}/ThreadRaceCondition",
+            "preLaunchTask": "Build ThreadRaceCondition",
+            "MIMode": "gdb",
+            "environment": [],
+            "externalConsole": false,
+            "miDebuggerPath": "C:\\msys64\\ucrt64\\bin\\gdb.exe",
+            "setupCommands": []
+        }
+    ]
+}

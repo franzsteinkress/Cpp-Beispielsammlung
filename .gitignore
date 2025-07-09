@@ -1,14 +1,24 @@
+# This file is used to ignore files which are generated
+# ----------------------------------------------------------------------------
+
+# Build directories and files
 build/
 bin/
 *.o
 *.obj
 *.exe
-.vscode/
-*.code-workspace
+**/build/
+
+# VS Code User-spezifische Dateien (optional)
+.vscode/*.code-workspace
+.vscode/settings.json.backup
+
+# CMake generated files
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 Makefile
+
+# Miscellaneous
 *.log
 *.swp
-.DS_Store

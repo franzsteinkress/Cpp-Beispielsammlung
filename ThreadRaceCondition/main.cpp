@@ -1,3 +1,6 @@
+// Copyright (c) 2025 Franz Steinkress
+// Licensed under the MIT License - see LICENSE file for details
+//
 #include <iostream>
 #include <thread>
 #include <mutex>

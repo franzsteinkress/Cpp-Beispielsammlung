@@ -1,0 +1,229 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build Binding",
+            "type": "shell",
+            "command": "cmake -S Binding -B Binding/build && cmake --build Binding/build",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "shell": {
+                    "executable": "C:\\msys64\\usr\\bin\\bash.exe",
+                    "args": ["-c"]
+                }
+            },
+            "group": "build",
+            "problemMatcher": ["$msCompile"],
+            "detail": "Buildet das Projekt mit Bash-kompatibler Shell"
+        },
+        {
+            "label": "Run Binding",
+            "type": "shell",
+            "command": "${workspaceFolder}/Binding/build/Binding",
+            "dependsOn": "Build Binding",
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Build Invokable",
+            "type": "shell",
+            "command": "cmake -S Invokable -B Invokable/build && cmake --build Invokable/build",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "shell": {
+                    "executable": "C:\\msys64\\usr\\bin\\bash.exe",
+                    "args": ["-c"]
+                }
+            },
+            "group": "build",
+            "problemMatcher": ["$msCompile"],
+            "detail": "Buildet das Projekt mit Bash-kompatibler Shell"
+        },
+        {
+            "label": "Run Invokable",
+            "type": "shell",
+            "command": "${workspaceFolder}/Invokable/build/Invokable",
+            "dependsOn": "Build Invokable",
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Build Lambda",
+            "type": "shell",
+            "command": "cmake -S Lambda -B Lambda/build && cmake --build Lambda/build",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "shell": {
+                    "executable": "C:\\msys64\\usr\\bin\\bash.exe",
+                    "args": ["-c"]
+                }
+            },
+            "group": "build",
+            "problemMatcher": ["$msCompile"],
+            "detail": "Buildet das Projekt mit Bash-kompatibler Shell"
+        },
+        {
+            "label": "Run Lambda",
+            "type": "shell",
+            "command": "${workspaceFolder}/Lambda/build/Lambda",
+            "dependsOn": "Build Lambda",
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Build LambdaThread",
+            "type": "shell",
+            "command": "cmake -S LambdaThread -B LambdaThread/build && cmake --build LambdaThread/build",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "shell": {
+                    "executable": "C:\\msys64\\usr\\bin\\bash.exe",
+                    "args": ["-c"]
+                }
+            },
+            "group": "build",
+            "problemMatcher": ["$msCompile"],
+            "detail": "Buildet das Projekt mit Bash-kompatibler Shell"
+        },
+        {
+            "label": "Run LambdaThread",
+            "type": "shell",
+            "command": "${workspaceFolder}/LambdaThread/build/LambdaThread",
+            "dependsOn": "Build LambdaThread",
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Build Multithreading",
+            "type": "shell",
+            "command": "cmake -S Multithreading -B Multithreading/build && cmake --build Multithreading/build",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "shell": {
+                    "executable": "C:\\msys64\\usr\\bin\\bash.exe",
+                    "args": ["-c"]
+                }
+            },
+            "group": "build",
+            "problemMatcher": ["$msCompile"],
+            "detail": "Buildet das Projekt mit Bash-kompatibler Shell"
+        },
+        {
+            "label": "Run Multithreading",
+            "type": "shell",
+            "command": "${workspaceFolder}/Multithreading/build/Multithreading",
+            "dependsOn": "Build Multithreading",
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Build SharedPtr",
+            "type": "shell",
+            "command": "cmake -S SharedPtr -B SharedPtr/build && cmake --build SharedPtr/build",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "shell": {
+                    "executable": "C:\\msys64\\usr\\bin\\bash.exe",
+                    "args": ["-c"]
+                }
+            },
+            "group": "build",
+            "problemMatcher": ["$msCompile"],
+            "detail": "Buildet das Projekt mit Bash-kompatibler Shell"
+        },
+        {
+            "label": "Run SharedPtr",
+            "type": "shell",
+            "command": "${workspaceFolder}/SharedPtr/build/SharedPtr",
+            "dependsOn": "Build SharedPtr",
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Build ThreadDeadLock",
+            "type": "shell",
+            "command": "cmake -S ThreadDeadLock -B ThreadDeadLock/build && cmake --build ThreadDeadLock/build",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "shell": {
+                    "executable": "C:\\msys64\\usr\\bin\\bash.exe",
+                    "args": ["-c"]
+                }
+            },
+            "group": "build",
+            "problemMatcher": ["$msCompile"],
+            "detail": "Buildet das Projekt mit Bash-kompatibler Shell"
+        },
+        {
+            "label": "Run ThreadDeadLock",
+            "type": "shell",
+            "command": "${workspaceFolder}/ThreadDeadLock/build/ThreadDeadLock",
+            "dependsOn": "Build ThreadDeadLock",
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        },
+        {
+            "label": "Build ThreadRaceCondition",
+            "type": "shell",
+            "command": "cmake -S ThreadRaceCondition -B ThreadRaceCondition/build && cmake --build ThreadRaceCondition/build",
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "shell": {
+                    "executable": "C:\\msys64\\usr\\bin\\bash.exe",
+                    "args": ["-c"]
+                }
+            },
+            "group": "build",
+            "problemMatcher": ["$msCompile"],
+            "detail": "Buildet das Projekt mit Bash-kompatibler Shell"
+        },
+        {
+            "label": "Run ThreadRaceCondition",
+            "type": "shell",
+            "command": "${workspaceFolder}/ThreadRaceCondition/build/ThreadRaceCondition",
+            "dependsOn": "Build ThreadRaceCondition",
+            "group": "test",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "shared"
+            }
+        }
+    ]
+}
