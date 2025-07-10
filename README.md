@@ -57,8 +57,8 @@ pacman -S mingw-w64-ucrt-x86_64-gcc mingw-w64-ucrt-x86_64-cmake \
 {
     "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
     "cmake.generator": "Ninja",
-    "cmake.sourceDirectory": "${workspaceFolder}", // wird überschrieben
-    "cmake.buildDirectory": "${workspaceFolder}/_dummy_", // verhindert globalen Build-Ordner
+    "cmake.sourceDirectory": "${workspaceFolder}",
+    "cmake.buildDirectory": "${workspaceFolder}/_dummy_",
     "cmake.configureOnOpen": false
 }
 ```
