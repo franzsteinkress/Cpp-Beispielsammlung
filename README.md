@@ -3,6 +3,7 @@
 ![C++](https://img.shields.io/badge/C%2B%2B-23-blue?logo=c%2B%2B&logoColor=white)
 ![CMake](https://img.shields.io/badge/CMake-3.26+-064F8C?logo=cmake&logoColor=white)
 ![VS Code](https://img.shields.io/badge/Editor-VS%20Code-007ACC?logo=visualstudiocode&logoColor=white)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 ![C++23-Beispielsammlung](.screenshots/c++23-beispielsammlung.png)
 
