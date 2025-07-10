@@ -21,7 +21,7 @@ Die Sammlung eignet sich sowohl für Lernzwecke als auch als Referenz für fortg
 | [LambdaThread](LambdaThread/) | Multithreading mit `std::jthread` und Lambda-Ausdrücken, inklusive synchronisierter Ausgabe. |
 | [Multithreading](Multithreading/) | Verwaltung von Haupt-, System-, Status- und Abschlussmeldungen in parallelen Threads. |
 | [SharedPtr](SharedPtr/) | Nutzung von `std::shared_ptr` in C++23 für geteilte Ressourcenverwaltung, Multithreading und polymorphe Objekte. |
-| [ThreadDeadLock](ThreadDeadLock/) | Demonstration eines Deadlocks und wie man ihn vermeidet. |
+| [ThreadDeadLock](ThreadDeadlock/) | Demonstration eines Deadlocks und wie man ihn vermeidet. |
 | [ThreadRaceCondition](ThreadRaceCondition/) | Beispiel für eine Race Condition und deren Lösung mit `std::mutex`. |
 
 ## Anforderungen
