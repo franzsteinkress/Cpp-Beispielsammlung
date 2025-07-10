@@ -1,7 +1,13 @@
 # C++-Beispielsammlung
 
+![C++](https://img.shields.io/badge/C%2B%2B-23-blue?logo=c%2B%2B&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-3.26+-064F8C?logo=cmake&logoColor=white)
+![VS Code](https://img.shields.io/badge/Editor-VS%20Code-007ACC?logo=visualstudiocode&logoColor=white)
+
+![C++23-Beispielsammlung](.screenshots/C++23-beispielsammlung.png)
+
 ## Beschreibung
-Der `CppFunktionsBaukasten` ist eine Sammlung von acht eigenständigen C++23-Projekten, die verschiedene Konzepte der modernen C++-Programmierung demonstrieren.  
+Der `C++-Beispielsammlung` ist eine Sammlung von acht eigenständigen C++23-Projekten, die verschiedene Konzepte der modernen C++-Programmierung demonstrieren.  
 Jedes Projekt enthält Quellcode, eine `README.md` mit Projektbeschreibung sowie eine MIT-Lizenz.  
 Die Sammlung eignet sich sowohl für Lernzwecke als auch als Referenz für fortgeschrittene C++-Techniken.
 
