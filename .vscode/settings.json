@@ -1,4 +1,5 @@
 {
+    "terminal.integrated.defaultProfile.windows": "PowerShell"
     "C_Cpp.default.compilerPath": "C:\\msys64\\ucrt64\\bin\\g++.exe",
     "cmake.generator": "Ninja",
     "cmake.sourceDirectory": "${workspaceFolder}", // wird in tasks.json überschrieben
